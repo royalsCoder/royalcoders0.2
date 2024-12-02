@@ -137,7 +137,7 @@ const Home = () => {
         </SwiperSlide>
       </Swiper>
       <a
-        href="https://api.whatsapp.com/send?phone=7985787895&text=I want to contact you."
+        href="https://api.whatsapp.com/send?phone=9005286625&text=I want to contact you."
         class="float"
         target="_blank"
       >
