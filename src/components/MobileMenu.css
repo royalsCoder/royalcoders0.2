@@ -1,0 +1,51 @@
+/* Styles for mobile view */
+@media only screen and (max-width: 768px) {
+  .mobile-menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 5px;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 2px;
+    /* position: relative; For positioning the line */
+  }
+
+  .mobile-menu-item {
+    color: #333;
+    font-size: 14px;
+    padding: 10px 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    position: relative;
+  }
+
+  /* Active item styles */
+  .mobile-menu-item.active {
+    /* background-color: #007bff; Active item background color */
+    color: #ee6b6b;
+    font-weight: bold;
+  }
+
+  /* Line above the active item */
+  .menu-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2px;
+    background-color: #ee6b6b;
+    transition: transform 0.3s ease, width 0.3s ease;
+  }
+}
+
+/* Styles for other screen sizes (optional) */
+@media only screen and (min-width: 769px) {
+  .mobile-menu {
+    display: none;
+  }
+}
