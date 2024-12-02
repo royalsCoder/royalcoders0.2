@@ -1,5 +1,5 @@
 import { LuMapPin } from "react-icons/lu";
-import logo from "../assets/ics-logo.jpg";
+import logo from "../assets/RC_logo.png";
 import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { NavLink, useNavigate } from "react-router-dom";
 import { useRef } from "react";
@@ -26,7 +26,7 @@ const Footer = () => {
             <div className="container">
               <div className="row">
                 <div className="col-lg-3 md-mb-20">
-                  <img src={logo} alt="Logo" />
+                  <img src={logo} alt="Logo" width={80} />
                   <div className="textwidget mb-33 mt-4">
                     <strong>Your Trusted Partner for Reliable Solutions</strong>{" "}
                     – Whether you're a worker looking to grow your career or

@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import logo from "../assets/ics-logo.jpg";
+import logo from "../assets/RC_logo.png";
 import { RiMenuUnfold4Line } from "react-icons/ri";
 import { NavLink } from "react-router-dom";
 import LabourModal from "../modals/LabourModal";
@@ -38,6 +38,11 @@ const Navbar = () => {
         <div>
           <img src={logo} className="logo" alt="Logo" />
         </div>
+        <p>
+          <span className="nav-center">
+            Marketing That Clicks, Tech That Works.
+          </span>
+        </p>
         <div className="d-flex gap-3 align-items-center menuitems">
           <div className="navmenu">
             <ul className="m-0 d-flex gap-4">
@@ -79,7 +84,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="d-flex gap-3">
+          {/* <div className="d-flex gap-3">
             <button
               className="button"
               onClick={() => handleModalButtonClick(setModalStatus)}
@@ -92,7 +97,7 @@ const Navbar = () => {
             >
               Customer Registration
             </button>
-          </div>
+          </div> */}
         </div>
 
         <div
