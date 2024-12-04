@@ -29,6 +29,7 @@ import ac from "../assets/ac.jpg";
 import { Autoplay, Pagination, Navigation, EffectFade } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   const [formData, setFormData] = useState({
@@ -107,6 +108,17 @@ const Home = () => {
     console.log("Form data submitted:", formData);
   };
   return (
+    <>
+    <Helmet>
+        <title>home</title>
+        <meta
+          name="description"
+          content="Matra Chhaya Seva Sansthan: Empowering women, supporting poor girls' marriages, education, and offering embroidery training. A dedicated NGO making a positive impact."
+
+        />
+        <link rel="canonical" href="/about" />
+
+      </Helmet>
     <div className="pagepadding">
       <Swiper
         ref={swiperRef}
@@ -333,6 +345,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

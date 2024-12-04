@@ -14,6 +14,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
+import Team from "./pages/Team";
 
 function App() {
   // Optional: If you want to conditionally render the MobileMenu
@@ -34,6 +35,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/ourTeam" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <ConditionalMobileMenu /> {/* Add the mobile menu here */}

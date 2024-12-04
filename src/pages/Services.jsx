@@ -16,6 +16,7 @@ import ReparingServices from "../assets/Reparing-Services.png";
 import corporate from "../assets/corporate.jpg";
 import { GoDotFill } from "react-icons/go";
 import { FaWhatsapp } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 
 const Services = () => {
   useEffect(() => {
@@ -56,6 +57,17 @@ const Services = () => {
 
   return (
     <div>
+
+<Helmet>
+        <title>our Services</title>
+        <meta
+          name="description"
+          content="Matra Chhaya Seva Sansthan: Empowering women, supporting poor girls' marriages, education, and offering embroidery training. A dedicated NGO making a positive impact."
+
+        />
+        <link rel="canonical" href="/services" />
+
+      </Helmet>
       <div className="pagepadding">
         <Header2 heading="Our Services" />
 

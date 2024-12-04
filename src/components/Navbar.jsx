@@ -75,6 +75,15 @@ const Navbar = () => {
               </li>
               <li>
                 <NavLink
+                  to="/ourTeam"
+                  className={({ isActive }) => (isActive ? "active" : "")}
+                  onClick={handleNavLinkClick}
+                >
+                  Our Team
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
                   to="/contact"
                   className={({ isActive }) => (isActive ? "active" : "")}
                   onClick={handleNavLinkClick}

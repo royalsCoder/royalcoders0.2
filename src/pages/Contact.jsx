@@ -7,6 +7,7 @@ import { FaLocationDot, FaPhone } from "react-icons/fa6";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { BsBank2 } from "react-icons/bs";
 import { FaWhatsapp } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 
 // import "./contact.css";
 
@@ -55,6 +56,17 @@ const Contact = () => {
   };
   return (
     <div>
+
+<Helmet>
+        <title>Contact Royal coders</title>
+        <meta
+          name="description"
+          content="Matra Chhaya Seva Sansthan: Empowering women, supporting poor girls' marriages, education, and offering embroidery training. A dedicated NGO making a positive impact."
+
+        />
+        <link rel="canonical" href="/about" />
+
+      </Helmet>
       <div className="pagepadding">
         <Header2
           heading="Contact Us"

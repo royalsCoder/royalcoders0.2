@@ -5,6 +5,7 @@ import about2 from "../assets/approch-3.png";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { FaWhatsapp } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 
 const About = () => {
   useEffect(() => {
@@ -12,6 +13,19 @@ const About = () => {
   }, []);
   return (
     <div>
+
+<Helmet>
+        <title>About royal coders</title>
+        <meta
+          name="description"
+          content="Matra Chhaya Seva Sansthan: Empowering women, supporting poor girls' marriages, education, and offering embroidery training. A dedicated NGO making a positive impact."
+
+        />
+        <link rel="canonical" href="/about" />
+
+      </Helmet>
+
+
       <div className="pagepadding">
         <Header2 heading="About Us" />
 
