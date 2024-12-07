@@ -34,7 +34,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar" style={{ zIndex: "1000" }}>
-      <div className="container d-flex justify-content-between align-items-center">
+      <div style={{width:"90%",margin:"auto"}} className=" d-flex justify-content-between align-items-center">
         <div>
           <img src={logo} className="logo" alt="Logo" />
         </div>

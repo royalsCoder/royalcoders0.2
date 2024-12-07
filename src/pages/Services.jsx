@@ -76,7 +76,7 @@ const Services = () => {
 
           </div> */}
 
-        <div className="container">
+        <div style={{width:"90%",margin:"auto"}} className="">
           <a
             href="https://api.whatsapp.com/send?phone=9005286625&text=I want to contact you."
             class="float"
@@ -120,183 +120,101 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="container">
+        <div style={{width:"90%",margin:"auto"}}>
           <div className="row my-5">
             <div className="col-lg-6 col-md-6 col-sm-12">
-              <img style={{ width: "100%" }} src={Construction} alt="" />
+              <img style={{ width: "80%" }} src={Construction} alt="" />
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12">
               <h1 className="color-primary">Website Development</h1>
+             <h3>Transform Your Online Presence with Expert Web Development</h3>
+             <p>Our website development services are tailored to create fast, responsive, and visually stunning websites. Whether it's an e-commerce platform, a corporate website, or a personal blog, we deliver solutions that enhance your brand and attract more visitors.</p>
               <p className="m-0">
                 <span>
                   <GoDotFill />
                 </span>
-                <span> Labor & ManPower Supply </span>{" "}
-              </p>
-              <p className="m-0">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> Architect</span>{" "}
-              </p>
-              <p className="m-0">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> Engineer</span>{" "}
+                <span> Custom design to match your brand</span>{" "}
               </p>
               <p className="m-0">
                 <span>
                   <GoDotFill />
                 </span>
-                <span> Home Desiner</span>{" "}
+                <span> SEO-friendly structures for better rankings</span>{" "}
               </p>
-              <p className="m-0 d-flex gap-1">
+              <p className="m-0">
                 <span>
                   <GoDotFill />
                 </span>
-                <span> Raj Mistri </span>{" "}
+                <span> Fully responsive for mobile, tablet, and desktop</span>{" "}
               </p>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> Iron Worker </span>{" "}
-              </p>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> Carprnter </span>{" "}
-              </p>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> Tiles Mistri </span>{" "}
-              </p>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> glass Shuttering</span>{" "}
-              </p>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> painter</span>{" "}
-              </p>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> Plumber, Electrician</span>{" "}
-              </p>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> RCC Lift Mixture Machine</span>{" "}
-              </p>
+              
+             
+            
+             
+             
             </div>
           </div>
 
           <div className="row my-5">
             <div className="col-lg-6 col-md-6 col-sm-12">
-              <h1 className="color-primary">Reparing Services</h1>
-              <p className="m-0 d-flex gap-1">
+              <h1 className="color-primary">Social Media Marketing</h1>
+             <h3>Boost Your Brand Visibility with Digital Marketing</h3>
+             <p>Our social media marketing strategies are designed to increase your brand's reach and engagement. We create targeted campaigns that drive traffic and generate leads.</p>
+              <p className="m-0">
                 <span>
                   <GoDotFill />
                 </span>
-                <span> All Types Of Home Appliances</span>{" "}
+                <span> Tailored campaigns for different platforms</span>{" "}
               </p>
-              <p className="m-0 d-flex gap-1">
+              <p className="m-0">
                 <span>
                   <GoDotFill />
                 </span>
-                <span> TV</span>{" "}
+                <span> Creative content creation</span>{" "}
               </p>
-              <p className="m-0 d-flex gap-1">
+              <p className="m-0">
                 <span>
                   <GoDotFill />
                 </span>
-                <span> Fridge</span>{" "}
+                <span> Data-driven strategies for measurable results</span>{" "}
               </p>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> AC</span>{" "}
-              </p>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> Geyser</span>{" "}
-              </p>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> Washing Machine</span>{" "}
-              </p>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> Invertor</span>{" "}
-              </p>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> Ro</span>{" "}
-              </p>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> RoChimney</span>{" "}
-              </p>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> DTH</span>{" "}
-              </p>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> Computer,Laptop , DeskTop Reparing & Service</span>{" "}
-              </p>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> Mobile Reparing </span>{" "}
-              </p>
+              
+             
             </div>
 
             <div className="col-lg-6 col-md-6 col-sm-12">
-              <img style={{ width: "100%" }} src={ReparingServices} alt="" />
+              <img style={{ width: "80%" }} src={ReparingServices} alt="" />
             </div>
           </div>
 
           {/* ************************************************* */}
           <div className="row my-5">
             <div className="col-lg-6 col-md-6 col-sm-12">
-              <img style={{ width: "100%" }} src={Carservices} alt="" />
+              <img style={{ width: "80%" }} src={Carservices} alt="" />
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12">
-              <h1 className="color-primary">Car & Bike Services</h1>
-              <p className="m-0 d-flex gap-1">
+               <h1 className="color-primary">Software Development</h1>
+             <h3>Boost Your Brand Visibility with Digital Marketing</h3>
+             <p>Our social media marketing strategies are designed to increase your brand's reach and engagement. We create targeted campaigns that drive traffic and generate leads.</p>
+              <p className="m-0">
                 <span>
                   <GoDotFill />
                 </span>
-                <span> All type of Car and bike services at your place </span>{" "}
+                <span> Tailored campaigns for different platforms</span>{" "}
               </p>
+              <p className="m-0">
+                <span>
+                  <GoDotFill />
+                </span>
+                <span> Creative content creation</span>{" "}
+              </p>
+              <p className="m-0">
+                <span>
+                  <GoDotFill />
+                </span>
+                <span> Data-driven strategies for measurable results</span>{" "}
+              </p>
+             
             </div>
           </div>
 

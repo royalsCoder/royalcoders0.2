@@ -23,7 +23,7 @@ const Footer = () => {
       <div className="bg-secondary text-white pt-5">
         <footer className="pt-4">
           <div className="footer-top ">
-            <div className="container">
+            <div style={{width:"90%",margin:"auto"}} className="">
               <div className="row">
                 <div className="col-lg-3 md-mb-20">
                   <img src={logo} alt="Logo" width={80} />
