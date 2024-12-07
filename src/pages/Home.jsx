@@ -4,8 +4,8 @@ import "./home.css";
 // import image from "../assets/servicefirstbanner.png";
 import image from "../assets/testweb.jpg";
 import banner from "../assets/all-service-banner.jpg";
-import homebanner from "../assets/testweb.jpg";
-import homebannersec from "../assets/testweb.jpg";
+import homebanner from "../assets/Royalcodershomewebbanner.png";
+import homebannersec from "../assets/Royalcodershomesoftwarebanner.png";
 import homebannerfirst from "../assets/Royalcodershomebanner.png";
 import whoweare from "../assets/who-we-are.png";
 import welcomebanner from "../assets/welcome-banner.jpg";
@@ -111,7 +111,9 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Leading IT Solutions – Web Development, App Development & More</title>
+        <title>
+          Leading IT Solutions – Web Development, App Development & More
+        </title>
         <meta
           name="description"
           content="Explore innovative IT solutions with us! From website and app development to social media marketing, software development, and electronics projects, we deliver tailored services to grow your business"
@@ -160,18 +162,18 @@ const Home = () => {
             style={{ width: "95%", margin: "auto" }}
           >
             <div className="text-section">
-              <h4>Welcome To Royal Coders  </h4>
+              <h4>Welcome To Royal Coders </h4>
               <h1>
-        Discover the Best IT Solutions <br />
-        <span>Web, Apps & Digital Marketing</span>
-      </h1>
-      <p style={{ color: "white" }}>
-        Royal Coders specializes in website development, app creation, 
-        and social media marketing to connect businesses with skilled 
-        professionals and deliver cutting-edge technology solutions.
-      </p>
+                Discover the Best IT Solutions <br />
+                <span>Web, Apps & Digital Marketing</span>
+              </h1>
+              <p style={{ color: "white" }}>
+                Royal Coders specializes in website development, app creation,
+                and social media marketing to connect businesses with skilled
+                professionals and deliver cutting-edge technology solutions.
+              </p>
               <button className="service-button" onClick={navigateService}>
-              Explore Our IT Services
+                Explore Our IT Services
               </button>
             </div>
             <div className="image-section">
