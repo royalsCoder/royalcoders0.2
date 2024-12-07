@@ -1,11 +1,9 @@
 :root {
-  /* --primary-color: #FF9400; Example primary color */
-  --primary-color: #176b87; /* Example primary color */
-  --secondary-color: #014582; /* Example secondary color */
-  --text-color-heading: #0a0a0a; /* Example text color */
-  /* --text-color: #454545; Example link color */
-  --text-color: #61677a; /* Example link color */
-  --background-color: #f8f8f8; /* Example background color */
+  --primary-color: #050321; 
+  --secondary-color: #050321; 
+  --text-color-heading: #0a0a0a; 
+  --text-color: #61677a; 
+  --background-color: #f8f8f8; 
   --green: #009f50;
 }
 

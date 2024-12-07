@@ -15,10 +15,10 @@ const About = () => {
     <div>
 
 <Helmet>
-        <title>About royal coders</title>
+        <title>About Us – Your Trusted IT Partner</title>
         <meta
           name="description"
-          content="Matra Chhaya Seva Sansthan: Empowering women, supporting poor girls' marriages, education, and offering embroidery training. A dedicated NGO making a positive impact."
+          content="Learn about our journey, expertise, and commitment to delivering exceptional IT services. We specialize in website development, app solutions, marketing strategies, and innovative tech projects to empower businesses worldwide."
 
         />
         <link rel="canonical" href="/about" />

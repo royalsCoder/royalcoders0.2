@@ -59,10 +59,10 @@ const Services = () => {
     <div>
 
 <Helmet>
-        <title>our Services</title>
+        <title>Comprehensive IT Services – Web, Apps, Marketing & More</title>
         <meta
           name="description"
-          content="Matra Chhaya Seva Sansthan: Empowering women, supporting poor girls' marriages, education, and offering embroidery training. A dedicated NGO making a positive impact."
+          content="Discover our diverse IT services, including website and app development, social media marketing, software solutions, and electronics-related projects. We craft custom strategies to meet your unique business needs"
 
         />
         <link rel="canonical" href="/services" />
@@ -90,7 +90,7 @@ const Services = () => {
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12">
               <h5 className="color-primary">
-                हमारी सेवाएँ - कुशल स्थानीय श्रम जिस पर आप भरोसा कर सकते हैं
+              Website Development
               </h5>
               <p>
                 ICS पर , हम आपको आपके घर और व्यवसाय की सभी ज़रूरतों के लिए
@@ -126,7 +126,7 @@ const Services = () => {
               <img style={{ width: "100%" }} src={Construction} alt="" />
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12">
-              <h1 className="color-primary">Construction Services</h1>
+              <h1 className="color-primary">Website Development</h1>
               <p className="m-0">
                 <span>
                   <GoDotFill />

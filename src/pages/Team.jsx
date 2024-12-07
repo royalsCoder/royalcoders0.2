@@ -7,10 +7,10 @@ const Team = () => {
     <div>
 
 <Helmet>
-        <title>our team</title>
+        <title>Meet Our Expert IT Professionals – Innovators Behind Success</title>
         <meta
           name="description"
-          content="Matra Chhaya Seva Sansthan: Empowering women, supporting poor girls' marriages, education, and offering embroidery training. A dedicated NGO making a positive impact."
+          content="Get to know the talented and passionate professionals driving our IT solutions. Our team combines creativity, technical expertise, and industry experience to deliver outstanding results for our clients."
 
         />
         <link rel="canonical" href="/about" />
@@ -21,6 +21,12 @@ const Team = () => {
 
         <div className="pagepadding">
         <Header2 heading="Our Team" />
+
+        <div>
+          
+
+
+        </div>
      
       </div>
     </div>

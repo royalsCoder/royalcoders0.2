@@ -28,10 +28,7 @@ const Footer = () => {
                 <div className="col-lg-3 md-mb-20">
                   <img src={logo} alt="Logo" width={80} />
                   <div className="textwidget mb-33 mt-4">
-                    <strong>Your Trusted Partner for Reliable Solutions</strong>{" "}
-                    – Whether you're a worker looking to grow your career or
-                    someone seeking dependable services, we’re here to make the
-                    process smooth and secure for you.
+                  Royal Coders delivers expert IT solutions, including website and app development, social media marketing, and software creation. Contact us for innovative tech services tailored to your business needs.
                   </div>
                 </div>
                 <div className="col-lg-3 pl-76 md-pl-15 md-mb-10">
@@ -42,8 +39,8 @@ const Footer = () => {
                         <span>
                           <LuMapPin />
                         </span>{" "}
-                        A-20 Ashok Vihar Colony, Ismailganj,Chinhat
-                        <br /> Lucknow- 226021
+                        Basant vihar colony Sitapur road 
+                         Lucknow- 226021
                       </div>
                     </li>
                     <li>
@@ -51,8 +48,8 @@ const Footer = () => {
                         <span>
                           <MdOutlineMarkEmailUnread />{" "}
                         </span>{" "}
-                        <a href="mailto:izzyclicksupplier@gmail.com">
-                          izzyclicksupplier@gmail.com
+                        <a href="mailto:codersroyal@gmail.com">
+                          codersroyal@gmail.com
                         </a>
                       </div>
                     </li>
@@ -103,20 +100,18 @@ const Footer = () => {
                   <h3 className="footer-title">Our Services</h3>
                   <ul className="site-map">
                     <li>
-                      <a href="#">RajMistri</a>
+                      <a href="#">Website Web Development</a>
                     </li>
                     <li>
-                      <a href="#">Plumber</a>
+                      <a href="#">App Developement</a>
                     </li>
                     <li>
-                      <a href="#">Carpenter</a>
+                      <a href="#">Social Media Marketing </a>
                     </li>
                     <li>
-                      <a href="#">House Cleaning</a>
+                      <a href="#">Electronics Services</a>
                     </li>
-                    <li>
-                      <a href="#">Electric</a>
-                    </li>
+                    
                   </ul>
                 </div>
               </div>
@@ -133,16 +128,7 @@ const Footer = () => {
                 </div>
                 <div className="col-lg-6">
                   <div className="copyright text-lg-start text-center">
-                    <p style={{ marginBottom: "60px" }}>
-                      <strong className="text-white">Developed By:</strong>
-                      <a
-                        href="https://royalcoders.tech"
-                        target="_blank"
-                        className="text-warning"
-                      >
-                        RoyalCoders
-                      </a>
-                    </p>
+                   
                   </div>
                 </div>
               </div>

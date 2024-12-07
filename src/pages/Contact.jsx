@@ -58,10 +58,10 @@ const Contact = () => {
     <div>
 
 <Helmet>
-        <title>Contact Royal coders</title>
+        <title>Get in Touch – Start Your IT Journey Today</title>
         <meta
           name="description"
-          content="Matra Chhaya Seva Sansthan: Empowering women, supporting poor girls' marriages, education, and offering embroidery training. A dedicated NGO making a positive impact."
+          content="Ready to transform your ideas into reality? Contact us for expert web and app development, IT services, and more. Let’s collaborate to elevate your business to new heights."
 
         />
         <link rel="canonical" href="/about" />

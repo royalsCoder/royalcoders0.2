@@ -111,12 +111,12 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>home</title>
+        <title>Leading IT Solutions – Web Development, App Development & More</title>
         <meta
           name="description"
-          content="Matra Chhaya Seva Sansthan: Empowering women, supporting poor girls' marriages, education, and offering embroidery training. A dedicated NGO making a positive impact."
+          content="Explore innovative IT solutions with us! From website and app development to social media marketing, software development, and electronics projects, we deliver tailored services to grow your business"
         />
-        <link rel="canonical" href="/about" />
+        <link rel="canonical" href="/" />
       </Helmet>
       <div className="pagepadding">
         <Swiper
@@ -154,23 +154,24 @@ const Home = () => {
         >
           <FaWhatsapp className="my-float" size={40} />
         </a>
-        <div style={{ backgroundColor: "#014582" }} className="py-4">
+        <div style={{ backgroundColor: "#050321" }} className="py-4">
           <div
             className="container-home-welcome"
             style={{ width: "95%", margin: "auto" }}
           >
             <div className="text-section">
-              <h4>Welcome To ICS - आपकी सेवा में सदैव तत्पर</h4>
+              <h4>Welcome To Royal Coders  </h4>
               <h1>
-                Discover the Best Workers <br />
-                <span>Anytime Anywhere</span>
-              </h1>
-              <p style={{ color: "white" }}>
-                A platform built with the mission to bridge the gap between the
-                public and skilled workers.
-              </p>
+        Discover the Best IT Solutions <br />
+        <span>Web, Apps & Digital Marketing</span>
+      </h1>
+      <p style={{ color: "white" }}>
+        Royal Coders specializes in website development, app creation, 
+        and social media marketing to connect businesses with skilled 
+        professionals and deliver cutting-edge technology solutions.
+      </p>
               <button className="service-button" onClick={navigateService}>
-                Our Services
+              Explore Our IT Services
               </button>
             </div>
             <div className="image-section">
