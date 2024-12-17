@@ -76,49 +76,7 @@ const Services = () => {
 
           </div> */}
 
-        <div style={{width:"90%",margin:"auto"}} className="">
-          <a
-            href="https://api.whatsapp.com/send?phone=9005286625&text=I want to contact you."
-            class="float"
-            target="_blank"
-          >
-            <FaWhatsapp className="my-float" size={40} />
-          </a>
-          <div className="row my-5">
-            <div className="col-lg-6 col-md-6 col-sm-12 mb-3">
-              <img style={{ width: "100%" }} src={image} alt="" />
-            </div>
-            <div className="col-lg-6 col-md-6 col-sm-12">
-              <h5 className="color-primary">
-              Website Development
-              </h5>
-              <p>
-                ICS पर , हम आपको आपके घर और व्यवसाय की सभी ज़रूरतों के लिए
-                सत्यापित, स्थानीय श्रम सेवाओं से जोड़ने में माहिर हैं। हमारे
-                कुशल पेशेवर हर प्रोजेक्ट में विशेषज्ञता,
-              </p>
-              <p>
-                विश्वसनीयता और प्रतिबद्धता लाते हैं, यह सुनिश्चित करते हुए कि
-                आपको जब और जहाँ भी ज़रूरत हो, गुणवत्तापूर्ण सेवाएँ मिलें। चाहे
-                वह टपकती पाइप को ठीक करना हो या किसी कमरे का नवीनीकरण करना हो,
-                हमारे कर्मचारी समर्पण और देखभाल के साथ आपकी सेवा करने के लिए
-                तैयार हैं।
-              </p>
-            </div>
-          </div>
-
-          <div>
-            <h3 className="text-center heading ">
-              Trusted Legal Guidance Across{" "}
-              <span className="color-primary"> All Domains.</span>{" "}
-            </h3>
-
-            <p className="text-center">
-              Legal solutions tailored to you—covering contracts, family,
-              property, marriage, and more.
-            </p>
-          </div>
-        </div>
+      
 
         <div style={{width:"90%",margin:"auto"}}>
           <div className="row my-5">
@@ -218,124 +176,9 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="row my-5">
-            <div className="col-lg-6 col-md-6 col-sm-12">
-              <h1 className="color-primary">CCTV Installation</h1>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span>New CCTV Installation </span>{" "}
-              </p>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> CCTV Servicing & Repairing </span>{" "}
-              </p>
-            </div>
+        
 
-            <div className="col-lg-6 col-md-6 col-sm-12">
-              <img style={{ width: "100%" }} src={CCTVInstalation} alt="" />
-            </div>
-          </div>
-          <div className="row my-5">
-            <div className="col-lg-6 col-md-6 col-sm-12">
-              <img style={{ width: "100%" }} src={Solar} alt="" />
-            </div>
-            <div className="col-lg-6 col-md-6 col-sm-12">
-              <h1 className="color-primary">Solar panel Installation</h1>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> New Solar Panel Installation </span>{" "}
-              </p>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> Solar Panel Servicing & Repairing </span>{" "}
-              </p>
-            </div>
-          </div>
-
-          <div className="row my-5">
-            <div className="col-lg-6 col-md-6 col-sm-12">
-              <h1 className="color-primary">Legal Services</h1>
-              <h5 className="color-primary">Legal:-</h5>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> Civil Matters</span>{" "}
-              </p>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> Criminal Matters</span>{" "}
-              </p>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> Family Matters</span>{" "}
-              </p>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> Service Matters</span>{" "}
-              </p>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> Consumer Redressal</span>{" "}
-              </p>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> Negotiable Instruments</span>{" "}
-              </p>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> Property Matters</span>{" "}
-              </p>
-              <h5 className="color-primary">Service Specialized:-</h5>
-              <p className="m-0 d-flex gap-1">
-                <span>
-                  <GoDotFill />
-                </span>
-                <span> Property Matters</span>{" "}
-              </p>
-            </div>
-
-            <div className="col-lg-6 col-md-6 col-sm-12">
-              <img style={{ width: "100%" }} src={legal} alt="" />
-            </div>
-          </div>
-          {/* ************************************************* */}
-
-          {services?.map((item, index) => {
-            return (
-              <>
-                <div key={index} className="row bg-green my-3 py-4 px-3">
-                  <div className="col-lg-4 col-md-6 col-sm-12">
-                    <img style={{ width: "100%" }} src={item?.image} alt="" />
-                  </div>
-                  <div className="col-lg-8 col-md-6 col-sm-12 p-4">
-                    <h1>{item?.heading}</h1>
-                    <p className="text-white fs-5 "> {item?.pera}</p>
-                  </div>
-                </div>
-              </>
-            );
-          })}
+        
         </div>
       </div>
     </div>
