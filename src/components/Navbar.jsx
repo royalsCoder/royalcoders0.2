@@ -38,11 +38,11 @@ const Navbar = () => {
         <div>
           <img src={logo} className="logo" alt="Logo" />
         </div>
-        <p>
+        {/* <p>
           <span className="nav-center">
             Marketing That Clicks, Tech That Works.
           </span>
-        </p>
+        </p> */}
         <div className="d-flex gap-3 align-items-center menuitems">
           <div className="navmenu">
             <ul className="m-0 d-flex gap-4">
@@ -176,20 +176,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <div className="d-flex gap-3 my-3">
-              <button
-                className="button"
-                onClick={() => handleModalButtonClick(setModalStatus)}
-              >
-                Labour Registration
-              </button>
-              <button
-                className="button"
-                onClick={() => handleModalButtonClick(setModalStatus1)}
-              >
-                Customer Registration
-              </button>
-            </div>
+          
           </div>
         </div>
       </div>

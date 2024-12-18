@@ -30,7 +30,7 @@ function App() {
     <>
       <Router>
         <Toaster />
-        <Navbar />
+        {/* <Navbar /> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -38,7 +38,7 @@ function App() {
           <Route path="/ourTeam" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <ConditionalMobileMenu /> {/* Add the mobile menu here */}
+        <ConditionalMobileMenu /> 
         <Footer />
       </Router>
     </>

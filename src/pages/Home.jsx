@@ -14,9 +14,9 @@ import legal from "../assets/legal-services.png";
 import ITsolution from "../assets/Digital-It-solution.png";
 import Solar from "../assets/Solar-panel-services.png";
 
-import Construction from "../assets/Construction.png";
-import Carservices from "../assets/Car-and-bike-services.png";
-import CCTVInstalation from "../assets/CCTV-Instalation.png";
+import WebDevelopmentImage from "../assets/Construction.png";
+import SoftwareDevelopmentImage from "../assets/Car-and-bike-services.png";
+import SocialMediaMarketingImage from "../assets/CCTV-Instalation.png";
 import ReparingServices from "../assets/Reparing-Services.png";
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -199,22 +199,28 @@ const Home = () => {
           </div>
 
           <div className="col-lg-6 col-md-6 col-sm-12">
-            <h4>Who We Are (हम कौन हैं)</h4>
-            <h2>हमारी पहचान - आपकी सेवा का संकल्प</h2>
+            <h4>Who We Are</h4>
+            <h2>Our Identity - Your Service Commitment</h2>
             <p>
-              ICS - Izzy Cliick Service पर , हम उन चुनौतियों को समझते हैं जिनका
-              सामना कर्मचारियों और जनता दोनों को करना पड़ता है जब सही विकल्प
-              खोजने की बात आती है। एक ओर, लोग अक्सर अपने घर या व्यावसायिक
-              जरूरतों के लिए भरोसेमंद और कुशल श्रमिकों को खोजने के लिए संघर्ष
-              करते हैं।
+              At Royal Coders, we are dedicated to providing top-notch IT
+              services tailored to businesses and individuals who seek
+              innovative digital solutions. Whether you require web development,
+              software development, social media marketing, or electronics
+              gadgets, we bring expertise and experience to deliver impactful
+              results that matter to your business.
             </p>
             <br />
             <p>
-              दूसरी ओर, कुशल श्रमिकों को अक्सर वास्तविक ग्राहकों से जुड़ना
-              मुश्किल होता है जो उनकी विशेषज्ञता को महत्व देते हैं। हमारा
-              उद्देश्य इस अंतर को खत्म करना है, ताकि आप बिना किसी समस्या के कुशल
-              और अनुभवी श्रमिकों से जुड़े दोस्तों और श्रमिकों को ऐसे ग्राहक
-              मिलें जो उनका काम पूरा करें।
+              we offer expert web development, software development, social
+              media marketing, and electronics gadgets to help businesses thrive
+              in the digital world. We specialize in creating responsive
+              websites, custom applications, and effective social media
+              strategies to boost your online presence and drive growth. Our
+              team provides tailored solutions that are scalable, secure, and
+              efficient, while ensuring high-quality service at competitive
+              prices. Whether you're a startup or a large enterprise, we’re here
+              to bridge the gap between technology and your needs. Contact us
+              today to transform your digital presence!
             </p>
             <button className="service-button my-2" onClick={navigateAbout}>
               Read More
@@ -224,89 +230,54 @@ const Home = () => {
 
         <div className="my-3" style={{ width: "90%", margin: "auto" }}>
           <div className="my-5">
-            <h1 className="text-center mb-5 color-primary">
-              Our Services (हमारी सेवाएं)
-            </h1>
+            <h1 className="text-center mb-5 color-primary">Our Services</h1>
           </div>
 
           <div className="row">
             <div className="col-lg-4 col-md-6 col-sm-12">
-              <img style={{ width: "100%" }} src={Construction} alt="" />
-
-              <h4 className="my-3 color-primary">Construction Services</h4>
+              <img
+                style={{ width: "100%" }}
+                src={WebDevelopmentImage}
+                alt="Web Development Services"
+              />
+              <h4 className="my-3 color-primary">Web Development</h4>
               <p>
-                We supply skilled labor for construction, including architects,
-                engineers, carpenters, masons, painters, plumbers, electricians,
-                and RCC lift operators. Our team ensures quality and efficiency
-                at every stage, supporting smooth project execution to meet
-                timelines, uphold standards, and deliver reliable results.
+                At Royal Coders, we specialize in custom web development to help
+                businesses establish a strong digital presence. Our team creates
+                responsive websites, e-commerce platforms, and SEO-optimized
+                solutions that drive traffic, enhance user experience, and
+                increase conversions. Whether you're launching a new site or
+                redesigning an existing one, we provide reliable web development
+                services tailored to your business needs.
               </p>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
-              <img style={{ width: "100%" }} src={ReparingServices} alt="" />
-
-              <h4 className="my-3 color-primary">Reparing Services</h4>
+              <img
+                style={{ width: "100%" }}
+                src={SoftwareDevelopmentImage}
+                alt="Software Development Services"
+              />
+              <h4 className="my-3 color-primary">Software Development</h4>
               <p>
-                We offer a complete range of home appliances and repair
-                services: TVs, fridges, ACs, geysers, washing machines,
-                inverters, RO systems, chimneys, and DTH. Expert repair and
-                service are also available for computers, laptops, desktops, and
-                mobile phones to ensure all your devices and appliances run
-                smoothly.
+                We offer custom software development services that streamline
+                operations and boost productivity. From enterprise software
+                solutions to mobile apps, our solutions are secure, scalable,
+                and tailored to your business requirements, helping you stay
+                ahead of the competition.
               </p>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
-              <img style={{ width: "100%" }} src={Carservices} alt="" />
-
-              <h4 className="my-3 color-primary">Car & Bike Services</h4>
+              <img
+                style={{ width: "100%" }}
+                src={SocialMediaMarketingImage}
+                alt="Social Media Marketing Services"
+              />
+              <h4 className="my-3 color-primary">Social Media Marketing</h4>
               <p>
-                We offer comprehensive car and bike services at your doorstep,
-                bringing convenience and expertise directly to you. Our skilled
-                technicians handle all types of maintenance and repairs, from
-                regular servicing, oil changes, and brake inspections to engine
-                repairs, tire replacements, battery checks, and more, ensuring
-                your vehicle runs smoothly and safely.
-              </p>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <img style={{ width: "100%" }} src={legal} alt="" />
-
-              <h4 className="my-3 color-primary">Legal Services</h4>
-              <p>
-                We specialize in providing expert legal solutions for a range of
-                cases, including civil, criminal, family, and service matters.
-                Our services also cover consumer redressal, negotiable
-                instruments, and property disputes. Trust us for professional
-                and dedicated assistance, especially in property matters.
-              </p>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <a href="https://royalcoders.tech/" target="blank">
-                <img style={{ width: "100%" }} src={ITsolution} alt="" />
-              </a>
-
-              <h4 className="my-3 color-primary">
-                IT Solution & Digital Marketing
-              </h4>
-              <p>
-                We provide top-notch services in web and software development,
-                digital marketing, and lead generation. Our expertise includes
-                e-commerce development, SEO/SEM strategies, Facebook Ads, and
-                Google Ads. Partner with us to elevate your online presence and
-                achieve exceptional business growth.
-              </p>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <img style={{ width: "100%" }} src={Solar} alt="" />
-
-              <h4 className="my-3 color-primary">Solar Panel Installation</h4>
-              <p>
-                We offer reliable solar solutions, including new solar panel
-                installation and comprehensive servicing and repairs. Whether
-                you're looking to harness solar energy for the first time or
-                maintain your existing system, our expert team ensures
-                efficient, cost-effective, and eco-friendly energy solutions
-                tailored to your needs.
+                Our social media marketing services enhance brand visibility and
+                engagement across platforms like Facebook, Instagram, and
+                LinkedIn. We create targeted campaigns that help your business
+                connect with your audience, drive traffic, and achieve growth.
               </p>
             </div>
           </div>
@@ -322,7 +293,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="row my-4  p-0" style={{ width: "95%", margin: "auto" }}>
+        {/* <div className="row my-4  p-0" style={{ width: "95%", margin: "auto" }}>
           <div className="col-lg-6 col-md-6 col-sm-12 my-4">
             <h2 className="color-primary">For the Public (जनता के लिए)</h2>
             <p>
@@ -348,7 +319,7 @@ const Home = () => {
           <div className="col-lg-6 col-md-6 col-sm-12 my-5">
             <img style={{ width: "100%" }} src={image} alt="Our Services" />
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
