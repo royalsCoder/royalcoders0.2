@@ -56,21 +56,18 @@ const Contact = () => {
   };
   return (
     <div>
-
-<Helmet>
+      <Helmet>
         <title>Get in Touch – Start Your IT Journey Today</title>
         <meta
           name="description"
           content="Ready to transform your ideas into reality? Contact us for expert web and app development, IT services, and more. Let’s collaborate to elevate your business to new heights."
-
         />
         <link rel="canonical" href="/about" />
-
       </Helmet>
       <div className="pagepadding">
         <Header2
           heading="Contact Us"
-          pera=" हम संचार को महत्व देते हैं और आपकी पूछताछ में आपकी सहायता करने के लिए हमेशा तैयार रहते हैं।।"
+          pera="We value your communication and are here to help with any questions. Reach out to us anytime!"
         />
       </div>
       <div className="contact-body">
@@ -79,9 +76,10 @@ const Contact = () => {
             <div className="container">
               <h2 className="color-primary">Contact Us</h2>
               <p>
-                हमारी सेवाओं के बारे में कोई सवाल हो, या आप फ़ीडबैक देना चाहते
-                हों, हमारी टीम आपकी सहायता के लिए मौजूद है। नीचे दिए गए किसी भी
-                तरीके का उपयोग करके हमसे संपर्क करने में संकोच न करें
+                "We value communication and are always ready to assist you with
+                any queries you may have. Feel free to reach out to us, and
+                we’ll make sure to provide the support you need. Your questions
+                are important to us!"
               </p>
             </div>
           </div>
@@ -121,7 +119,7 @@ const Contact = () => {
 
                   <div className="contact-info-content">
                     <h4>Phone</h4>
-                    <p>7985787895</p>
+                    <p>9005286625</p>
                   </div>
                 </div>
 
@@ -134,36 +132,10 @@ const Contact = () => {
 
                   <div className="contact-info-content">
                     <h4>Email</h4>
-                    <p>izzyclicksupplier@gmail.com</p>
+                    <p>codersroyal@gmail.com</p>
                   </div>
                 </div>
-                <div className="contact-info-item">
-                  <div className="contact-info-icon">
-                    <i className="fas fa-envelope">
-                      <BsBank2 />
-                    </i>
-                  </div>
-
-                  <div className="contact-info-content">
-                    <h4>Bank Details</h4>
-                    <p className="m-0">
-                      <span>Bank Name:- </span> <span>State Bank Of India</span>
-                    </p>
-                    <p className="m-0">
-                      <span>Branch :- </span> <span>High Court Lucknow</span>
-                    </p>
-                    <p className="m-0">
-                      <span>Name :- </span>{" "}
-                      <span>Izzy Click Supplier (OPC) Private Limted</span>
-                    </p>
-                    <p className="m-0">
-                      <span>Account Number:- </span> <span>43357205640</span>
-                    </p>
-                    <p className="m-0">
-                      <span>IFSC Code :- </span> <span>SBIN0006219</span>
-                    </p>
-                  </div>
-                </div>
+            
               </div>
 
               <div className="contact-form">
