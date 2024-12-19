@@ -74,7 +74,7 @@ const Contact = () => {
         <section>
           <div className="section-header">
             <div className="container">
-              <h2 className="color-primary">Contact Us</h2>
+              <h2 className="text-white">Contact Us</h2>
               <p>
                 "We value communication and are always ready to assist you with
                 any queries you may have. Feel free to reach out to us, and
@@ -104,7 +104,7 @@ const Contact = () => {
                   <div className="contact-info-content">
                     <h4>Address</h4>
                     <p>
-                      A-20 Ashok Vihar Colony, Ismailganj,Chinhat
+                    Basant vihar colony Sitapur road 
                       <br /> Lucknow- 226021
                     </p>
                   </div>
@@ -119,7 +119,9 @@ const Contact = () => {
 
                   <div className="contact-info-content">
                     <h4>Phone</h4>
-                    <p>9005286625</p>
+                    <p className="m-0">9005286625 <span>,</span></p>
+                    <p className="m-0">9005286625 <span>,</span></p>
+                    <p className="m-0">9005286625</p>
                   </div>
                 </div>
 
