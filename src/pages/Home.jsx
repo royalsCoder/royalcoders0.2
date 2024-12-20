@@ -8,7 +8,7 @@ import homebanner from "../assets/Royalcodershomewebbanner.png";
 import homebannersec from "../assets/Royalcodershomesoftwarebanner.png";
 import homebannerfirst from "../assets/Royalcodershomebanner.png";
 import whoweare from "../assets/who-we-are.png";
-import welcomebanner from "../assets/welcome-banner.jpg";
+import bestdigitalmarketing from "../assets/royalcoders/best-digital-marketing-company-in-lucknow.jpg";
 import homecontact from "../assets/homecontact.jpg";
 import legal from "../assets/legal-services.png";
 import ITsolution from "../assets/Digital-It-solution.png";
@@ -164,22 +164,26 @@ const Home = () => {
             <div className="text-section">
               <h4>Welcome To Royal Coders </h4>
               <h1>
-                Discover the Best IT Solutions <br />
-                <span>Web, Apps & Digital Marketing</span>
+                <h1>
+                  Custom Software Development and Digital Marketing Solutions by
+                  Royal Coders
+                </h1>
               </h1>
               <p style={{ color: "white" }}>
-                Royal Coders specializes in website development, app creation,
-                and social media marketing to connect businesses with skilled
-                professionals and deliver cutting-edge technology solutions.
+                Royal Coders specializes in personalized software creation and
+                internet marketing strategies designed to address your specific
+                business objectives. Whether you want to expand your brand’s
+                reach or improve workflow, our team delivers inventive and
+                efficient solutions.
               </p>
               <button className="service-button" onClick={navigateService}>
-                Explore Our IT Services
+                Explore Our Services
               </button>
             </div>
             <div className="image-section">
               <div className="person">
                 <img
-                  src={welcomebanner}
+                  src={bestdigitalmarketing}
                   alt="Person"
                   style={{ height: "300px" }}
                 />
