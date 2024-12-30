@@ -45,46 +45,6 @@ const Home = () => {
 
 
 
-  const cards = [
-    {
-      image: 'https://images.pexels.com/photos/3617500/pexels-photo-3617500.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      title: 'Iceland',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      button: 'Book Now'
-    },
-    {
-      image: 'https://images.pexels.com/photos/1559908/pexels-photo-1559908.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      title: 'Portugal',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      button: 'Book Now'
-    },
-    {
-      image: 'https://images.pexels.com/photos/2032332/pexels-photo-2032332.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      title: 'Austria',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      button: 'Book Now'
-    },
-    {
-      image: 'https://images.pexels.com/photos/126292/pexels-photo-126292.jpeg?auto=compress&cs=tinysrgb&w=1600',
-      title: 'Czechia',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      button: 'Book Now'
-    },
-    {
-      image: 'https://images.pexels.com/photos/13787796/pexels-photo-13787796.jpeg?auto=compress&cs=tinysrgb&w=1600',
-      title: 'Finland',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      button: 'Book Now'
-    },
-    {
-      image: 'https://images.pexels.com/photos/1680381/pexels-photo-1680381.jpeg?auto=compress&cs=tinysrgb&w=1600',
-      title: 'Norway',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      button: 'Book Now'
-    }
-  ]
-  
-
 
 
 
@@ -299,60 +259,13 @@ const Home = () => {
           
           </div>
 
-          <div className="row">
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <img
-                style={{ width: "100%" }}
-                src={WebDevelopmentImage}
-                alt="Web Development Services"
-              />
-              <h4 className="my-3 color-primary">Web Development</h4>
-              <p>
-                At Royal Coders, we specialize in custom web development to help
-                businesses establish a strong digital presence. Our team creates
-                responsive websites, e-commerce platforms, and SEO-optimized
-                solutions that drive traffic, enhance user experience, and
-                increase conversions. Whether you're launching a new site or
-                redesigning an existing one, we provide reliable web development
-                services tailored to your business needs.
-              </p>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <img
-                style={{ width: "100%" }}
-                src={SoftwareDevelopmentImage}
-                alt="Software Development Services"
-              />
-              <h4 className="my-3 color-primary">Software Development</h4>
-              <p>
-                We offer custom software development services that streamline
-                operations and boost productivity. From enterprise software
-                solutions to mobile apps, our solutions are secure, scalable,
-                and tailored to your business requirements, helping you stay
-                ahead of the competition.
-              </p>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <img
-                style={{ width: "100%" }}
-                src={SocialMediaMarketingImage}
-                alt="Social Media Marketing Services"
-              />
-              <h4 className="my-3 color-primary">Social Media Marketing</h4>
-              <p>
-                Our social media marketing services enhance brand visibility and
-                engagement across platforms like Facebook, Instagram, and
-                LinkedIn. We create targeted campaigns that help your business
-                connect with your audience, drive traffic, and achieve growth.
-              </p>
-            </div>
-          </div>
+       
 
-          <div className="text-center">
+          <div className="text-center my-5">
             <h5
               onClick={navigateService}
               style={{ cursor: "pointer", textDecoration: "underLine" }}
-              className="color-primary"
+              className="color-primary mb-4"
             >
               View More
             </h5>
