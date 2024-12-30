@@ -337,16 +337,7 @@ h1 {
       width: 16.6666%;
     }
   }
-  &.small-3 {
-    @media (min-width: $sm) {
-      width: 25%;
-    }
-  }
-  &.small-4 {
-    @media (min-width: $sm) {
-      width: 33.3333%;
-    }
-  }
+
   &.small-5 {
     @media (min-width: $sm) {
       width: 41.6666%;
@@ -442,11 +433,7 @@ h1 {
       width: 8.3333%;
     }
   }
-  &.large-2 {
-    @media (min-width: $lg) {
-      width: 16.6666%;
-    }
-  }
+
   &.large-3 {
     @media (min-width: $lg) {
       width: 25%;
