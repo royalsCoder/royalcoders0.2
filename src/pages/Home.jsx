@@ -140,7 +140,7 @@ const Home = () => {
             delay: 2000,
             disableOnInteraction: false,
           }}
-          navigation={true}
+          navigation={false}
           pagination={{
             clickable: true,
           }}
