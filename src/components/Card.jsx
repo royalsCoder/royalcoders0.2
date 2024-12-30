@@ -4,7 +4,7 @@ import './Card.css'
 const Card = ({image, title, text, button}) => {
   return (
     <div className='cardHover' >
-      <a href="#" className="card">
+      <div href="#" className="card">
       <div className="card__image">
         <img style={{width:"100%"}} src={image} alt={title} />
       </div>
@@ -13,7 +13,7 @@ const Card = ({image, title, text, button}) => {
         <p>{text}</p>
          
       </div>
-    </a>
+    </div>
     </div>
   )
 }
