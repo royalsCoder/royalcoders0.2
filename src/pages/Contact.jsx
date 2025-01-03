@@ -118,7 +118,7 @@ const Contact = () => {
 
                   <div className="contact-info-content">
                     <h4>Phone</h4>
-                    <p className="m-0">9005286625 <span>,</span></p>
+                    <p className="m-0" > +918433301351 <span>,</span></p>
                     <p className="m-0">9005286625 <span>,</span></p>
                     <p className="m-0">9005286625</p>
                   </div>
