@@ -39,8 +39,7 @@ const Footer = () => {
                         <span>
                           <LuMapPin />
                         </span>{" "}
-                        Basant vihar colony Sitapur road 
-                         Lucknow- 226021
+                        Shop no .49 Adarsh complex engineering college cahura aliganj lucknow pin code -226202
                       </div>
                     </li>
                     <li>
