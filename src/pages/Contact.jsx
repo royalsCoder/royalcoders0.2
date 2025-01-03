@@ -104,8 +104,7 @@ const Contact = () => {
                   <div className="contact-info-content">
                     <h4>Address</h4>
                     <p>
-                    Basant vihar colony Sitapur road 
-                      <br /> Lucknow- 226021
+                    Shop no .49 Adarsh complex engineering college cahura aliganj lucknow pin code -226202
                     </p>
                   </div>
                 </div>
